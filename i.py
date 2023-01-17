@@ -1,0 +1,12 @@
+f = open("show.txt", 'w')
+f.write(""""D" : [\n""")
+for i in range(1, 51):
+    f.write('{ \n')
+    f.write(f""" "a" : "Country {i}" \n""")
+    f.write(f""" "b" : "Conform {i}" \n""")
+    f.write(f""" "c" : "Active {i}" \n""")
+    f.write(f""" "d" : "Recovered {i}" \n""")
+    f.write(f""" "e" : "Deaths {i}" \n""")
+    f.write("},\n")
+f.write("""]\n""")
+f.close()

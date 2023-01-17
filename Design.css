@@ -1,0 +1,28 @@
+body{
+    background-color: darkcyan;
+    color: tomato;
+}
+
+td{
+    color:whitesmoke;
+}
+
+th{
+    color: orange;
+}
+
+thead{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+h3{
+    margin-top: 15px !important;
+    margin-bottom: 10px;
+    background-color: rgb(3, 44, 70);
+    border-radius: 10px;
+    width: 100%;
+}
+
+table{
+    background-color: gray !important;
+}
