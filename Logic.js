@@ -7,7 +7,9 @@
 //     }
 // });
 console.log(" Console is working...")
+
 go = document.getElementById('s')
+
 my_code = ''
 
 for (i=1; i != 101; ++i) {
